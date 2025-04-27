@@ -1,4 +1,6 @@
 import { contactMessages, type ContactMessage, type InsertContactMessage } from "@shared/schema";
+import { db } from "./db";
+import { eq } from "drizzle-orm";
 
 // Storage interface definition
 export interface IStorage {
@@ -7,38 +9,28 @@ export interface IStorage {
   getContactMessageById(id: number): Promise<ContactMessage | undefined>;
 }
 
-export class MemStorage implements IStorage {
-  private messages: Map<number, ContactMessage>;
-  private currentMessageId: number;
-
-  constructor() {
-    this.messages = new Map();
-    this.currentMessageId = 1;
-  }
-
+export class DatabaseStorage implements IStorage {
   async saveContactMessage(message: InsertContactMessage): Promise<ContactMessage> {
-    const id = this.currentMessageId++;
-    const timestamp = new Date().toISOString();
+    const [contactMessage] = await db
+      .insert(contactMessages)
+      .values(message)
+      .returning();
     
-    const contactMessage: ContactMessage = {
-      id,
-      name: message.name,
-      email: message.email,
-      message: message.message,
-      createdAt: timestamp
-    };
-    
-    this.messages.set(id, contactMessage);
     return contactMessage;
   }
 
   async getContactMessages(): Promise<ContactMessage[]> {
-    return Array.from(this.messages.values());
+    return await db.select().from(contactMessages);
   }
 
   async getContactMessageById(id: number): Promise<ContactMessage | undefined> {
-    return this.messages.get(id);
+    const [contactMessage] = await db
+      .select()
+      .from(contactMessages)
+      .where(eq(contactMessages.id, id));
+    
+    return contactMessage;
   }
 }
 
-export const storage = new MemStorage();
+export const storage = new DatabaseStorage();

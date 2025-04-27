@@ -1,0 +1,156 @@
+🎨 Design
+Theme: Clean, minimalistic, futuristic (since you're into AI and tech innovation)
+
+Color Palette:
+
+Dark background (#0A0A0A or #121212)
+
+Accent colors: Electric blue (#00FFFF), Neon purple (#9D00FF)
+
+White/gray text for easy readability
+
+Fonts:
+
+Headlines: Poppins or Montserrat
+
+Body text: Roboto or Open Sans
+
+Style:
+
+Smooth animations (page transitions, hover effects)
+
+Soft shadows, glassmorphism cards (for sections)
+
+Section transitions (scroll-based animations like fade, slide)
+
+🏗️ Website Structure (Pages + Sections)
+1. Home / Hero Section
+Name, tagline
+
+"Hi, I'm Aditya — Building AI, Coding Platforms, and Smart Solutions."
+
+Cool background animation (particles, AI/tech vibes)
+
+Call to Action (CTA) buttons:
+
+View Projects
+
+Contact Me
+
+2. About Me
+Short story: who you are, what drives you.
+
+Quick highlights:
+
+AI Developer
+
+Full Stack Web Developer
+
+Hackathon Enthusiast
+
+Data Science Explorer
+
+Key Tools: TensorFlow, React, Node.js, Power BI, Docker
+
+3. Skills
+✅ Categorized Skills:
+
+AI/ML: TensorFlow, Keras, OpenCV
+
+Web Dev: React, Node.js, Docker
+
+Data Analytics: Power BI, Pandas, SQL
+
+Cloud: Google Cloud Platform (mention it because of Hackathons)
+
+Others: GitHub, VS Code, APIs
+
+Use animated skill bars or cool icon-based layouts.
+
+4. Projects (Highlight Section)
+🚀 Feature these major projects:
+
+SignEase – Real-time Sign Language Interpreter (Hackathon project)
+
+AI Deepfake Detector – TensorFlow-based image classifier
+
+Code Execution Visualizer – Web-based coding platform (React + Node.js + Docker)
+
+Fashion Recommender System – AI-powered outfit suggestions
+
+Power BI Sales Dashboard – Amazon Sales Data 2025 Analysis
+
+Each project card should have:
+
+Thumbnail (small image)
+
+Short description (problem + solution)
+
+Tech stack badges (like React, TensorFlow, etc.)
+
+Link to GitHub or Live Demo if available
+
+5. Hackathon Achievements
+🏆 Dedicated section listing:
+
+Hackathon names
+
+Themes (Healthcare, Smart Agriculture, etc.)
+
+Your role + technology used
+
+Small badges/icons for achievements
+
+6. Experience (Optional if needed)
+Freelance gigs
+
+Internship experiences (if any)
+
+Open-source contributions
+
+7. Blogs (Optional but Recommended)
+📝 Even 1–2 articles:
+
+"Building a Real-Time AI Sign Language Translator"
+
+"Deepfake Detection — My Approach Using TensorFlow"
+
+You can host them separately (e.g., Medium, Hashnode) or directly in your website.
+
+8. Contact
+Simple contact form:
+
+Name
+
+Email
+
+Message
+
+Plus icons for:
+
+LinkedIn
+
+GitHub
+
+Email
+
+9. Footer
+Quick links to sections
+
+Copyright
+
+Tech used to build the site (React.js, hosted on Vercel or Netlify)
+
+⚡ Bonus UI Ideas
+Loading screen (cool loading animation based on your initials "A")
+
+Light/Dark mode toggle
+
+Small animated emojis or icons (like rocket for projects 🚀, trophy for hackathons 🏆)
+
+📋 Short Summary of Content to Prepare
+✅ Updated Resume (PDF)
+✅ GitHub Links (all major projects)
+✅ Good project screenshots
+✅ Short descriptions for each project
+✅ Hackathon achievements (dates + brief about your work)

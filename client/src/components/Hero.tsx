@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { useEffect } from "react";
-import ParticleBackground from "@/components/ParticleBackground";
+import ThreeBackground from "@/components/ThreeBackground";
 import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center overflow-hidden">
-      <ParticleBackground />
+      <ThreeBackground />
       
       <div className="container mx-auto px-6 z-10 pt-20">
         <div className="flex flex-col md:flex-row items-center justify-between">

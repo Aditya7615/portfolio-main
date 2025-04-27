@@ -19,7 +19,7 @@ export function initializeEmailService(apiKey: string | undefined): void {
   
   try {
     const service = new MailService();
-    service.setApiKey(apiKey);
+    service.setApiKey(apiKey as string); // Type assertion since we've already checked it's not undefined
     mailService = service;
     console.log("Email service initialized successfully");
   } catch (error) {

@@ -29,7 +29,7 @@ const Experience = () => {
         end: "Present"
       },
       description: "Developed custom AI solutions for different businesses, including computer vision applications and natural language processing systems.",
-      technologies: ["TensorFlow", "PyTorch", "OpenCV", "NLTK", "Flask"]
+      technologies: ["TensorFlow", "PyTorch", "OpenCV", "NLTK", "Flask", "Hugging Face", "Scikit-learn", "FastAPI", "Docker", "AWS"]
     },
     {
       id: "exp2",
@@ -40,7 +40,7 @@ const Experience = () => {
         end: "2022-08"
       },
       description: "Contributed to the development of a scalable web application using modern technologies. Implemented responsive UI components and RESTful APIs.",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Docker"]
+      technologies: ["React", "Node.js", "Express", "MongoDB", "Docker", "TypeScript", "Redux", "AWS", "Jest", "GraphQL"]
     },
     {
       id: "exp3",
@@ -51,7 +51,7 @@ const Experience = () => {
         end: "Present"
       },
       description: "Active contributor to various open-source projects, primarily focusing on machine learning libraries and developer tools.",
-      technologies: ["Python", "JavaScript", "Git", "TensorFlow", "React"]
+      technologies: ["Python", "JavaScript", "Git", "TensorFlow", "React", "TypeScript", "PyTorch", "Vue.js", "Django", "Next.js", "Go", "Rust"]
     }
   ];
 
